@@ -57,6 +57,9 @@ bailOnError "$?" "Failed to chmod 700 ${sshdir}."
 chown -R "${u}:${u}" "${sshdir}"
 bailOnError "$?" "Failed to chown -R ${sshdir}."
 
+usermod -G root "${u}"
+bailOnError "$?" "Failed to add user to root group."
+
 echo "> Done"
 echo
 ls -alR "${base}"
