@@ -1,12 +1,11 @@
 #!/bin/bash
 # ---------------------------------------------------------------#
-# Wilson Bui 													 #
-# The "Add Account" shell script								 #
-# Version 1.0 - 12/14/2017
+# Wilson Bui 													                           #
+# The "Add Account" shell script								                 #
+# Version 1.0 - 12/14/2017                                       #
 # This script provisions administrative users to Bastion Servers #
 # ---------------------------------------------------------------#
 
-# Version 0.1 - April 4, 2016 - Chandra
 #sh add_account.sh [UNAME] "ssh-rsa [KEY]"
 
 function bail()
