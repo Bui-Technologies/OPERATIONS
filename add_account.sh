@@ -1,10 +1,10 @@
 #!/bin/bash
-# ---------------------------------------------------------------#
-# Wilson Bui 													                           #
-# The "Add Account" shell script								                 #
-# Version 1.0 - 12/14/2017                                       #
-# This script provisions administrative users to Bastion Servers #
-# ---------------------------------------------------------------#
+# ---------------------------------------------------------------
+# Wilson Bui
+# The "Add Account" shell script
+# Version 1.0 - 12/14/2017
+# This script provisions administrative users to Bastion Servers 
+# ---------------------------------------------------------------
 
 #sh add_account.sh [UNAME] "ssh-rsa [KEY]"
 
