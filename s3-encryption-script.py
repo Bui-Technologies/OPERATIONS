@@ -53,7 +53,7 @@ def encrypted_objects_report(bucket_list, bucket, bucket_objects):
         try:
             meta_data = s3.head_object(Bucket = bucket, Key = item['Key'])
         except:
-            print ('\nYou are not allowed to access the bucket: ' + bucket.upper())
+            print ('\nYou are not allowed to access the bucket: ' + bucket.upper() + '\n')
             access = False
             break
         
@@ -116,7 +116,7 @@ def main():
             current_page = 0
             for page in page_iterator:
                 current_page = current_page + 1
-                print ("Page " + str(current_page) + " of the:")
+                print ("\nPage " + str(current_page) + " of the:")
                 bucket_objects = page
                 encrypted_objects_report(bucket_list, bucket, bucket_objects)
         else:

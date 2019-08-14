@@ -1,0 +1,11 @@
+Page 1 of the:
+
+Report for encrypted bucket: AWS-HHS-CMS-AMG-QPP-SELFN - AES256
+Total objects found: 999
+Total AES256-SSE encrypted objects found: 999
+Total KMS-SSE encrypted objects found: 0
+Total unencrypted objects found: 0
+
+Page 2 of the:
+
+You are not allowed to access the bucket: AWS-HHS-CMS-AMG-QPP-SELFN
